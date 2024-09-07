@@ -3,6 +3,10 @@
   "temperature": 0.5,
   "downfall": 0.5,
   "effects": {
+    "additions_sound": {
+      "sound": "ambient.cave",
+      "tick_chance": 0.0111
+    },
     "foliage_color": -16764160,
     "grass_color": -16764160,
     "sky_color": -6710887,
