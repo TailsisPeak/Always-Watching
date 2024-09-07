@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "always_skibidi:block/dead_log_side",
+    "particle": "always_skibidi:block/dead_log_side"
+  },
+  "render_type": "solid"
+}

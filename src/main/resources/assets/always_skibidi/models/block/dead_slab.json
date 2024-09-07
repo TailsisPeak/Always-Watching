@@ -1,0 +1,10 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "particle": "always_skibidi:block/dead_planks",
+    "bottom": "always_skibidi:block/dead_planks",
+    "top": "always_skibidi:block/dead_planks",
+    "side": "always_skibidi:block/dead_planks"
+  },
+  "render_type": "solid"
+}

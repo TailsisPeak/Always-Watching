@@ -76,14 +76,14 @@
       "max": 1.0
     },
     "treesPerChunk": 13,
-    "vanillaTreeType": "Big trees",
+    "vanillaTreeType": "Default",
     "treeType": 1,
-    "minHeight": 7,
+    "minHeight": 4,
     "treeStem": {
       "value": "CUSTOM:DeadLog"
     },
     "treeBranch": {
-      "value": "Blocks.AIR"
+      "value": "CUSTOM:DeadLeaves"
     },
     "treeVines": {
       "value": ""

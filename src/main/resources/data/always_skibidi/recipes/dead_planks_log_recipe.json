@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "always_skibidi:dead_log"
+    }
+  ],
+  "result": {
+    "id": "always_skibidi:dead_planks",
+    "count": 4
+  }
+}

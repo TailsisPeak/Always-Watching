@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wooden_button",
+  "category": "redstone",
+  "ingredients": [
+    {
+      "item": "always_skibidi:dead_planks"
+    }
+  ],
+  "result": {
+    "id": "always_skibidi:dead_button",
+    "count": 1
+  }
+}

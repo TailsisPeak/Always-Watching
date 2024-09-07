@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "always_skibidi:block/dead_pressure_plate"
+    },
+    "powered=true": {
+      "model": "always_skibidi:block/dead_pressure_plate_down"
+    }
+  }
+}

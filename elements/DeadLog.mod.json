@@ -2,15 +2,15 @@
   "_fv": 66,
   "_type": "block",
   "definition": {
-    "texture": "deadlogtop",
-    "textureTop": "deadlogtop",
-    "textureLeft": "deadlogside",
-    "textureFront": "deadlogside",
-    "textureRight": "deadlogside",
-    "textureBack": "deadlogside",
+    "texture": "dead_log_top",
+    "textureTop": "dead_log_top",
+    "textureLeft": "dead_log_side",
+    "textureFront": "dead_log_side",
+    "textureRight": "dead_log_side",
+    "textureBack": "dead_log_side",
     "renderType": 10,
     "customModelName": "Normal",
-    "rotationMode": 0,
+    "rotationMode": 5,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
@@ -37,12 +37,16 @@
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": 1.0,
-    "resistance": 10.0,
+    "hardness": 2.0,
+    "resistance": 2.0,
     "hasGravity": false,
     "isWaterloggable": false,
-    "creativeTabs": [],
-    "destroyTool": "Not specified",
+    "creativeTabs": [
+      {
+        "value": "BUILDING_BLOCKS"
+      }
+    ],
+    "destroyTool": "axe",
     "customDrop": {
       "value": ""
     },
@@ -54,7 +58,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 15,
     "material": {
-      "value": "ROCK"
+      "value": "WOOD"
     },
     "tickRate": 0,
     "tickRandomly": false,
@@ -69,7 +73,7 @@
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
-    "flammability": 0,
+    "flammability": 5,
     "fireSpreadSpeed": 0,
     "isLadder": false,
     "slipperiness": 0.6,
@@ -79,7 +83,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "GROUND"
+      "value": "WOOD"
     },
     "breakSound": {
       "value": ""

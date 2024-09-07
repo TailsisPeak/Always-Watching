@@ -30,8 +30,20 @@ public class AlwaysSkibidiModTabs {
 
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
-		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
+		if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+			tabData.accept(AlwaysSkibidiModBlocks.DEAD_WOOD.get().asItem());
+			tabData.accept(AlwaysSkibidiModBlocks.DEAD_LOG.get().asItem());
+			tabData.accept(AlwaysSkibidiModBlocks.DEAD_PLANKS.get().asItem());
+			tabData.accept(AlwaysSkibidiModBlocks.DEAD_STAIRS.get().asItem());
+			tabData.accept(AlwaysSkibidiModBlocks.DEAD_SLAB.get().asItem());
+			tabData.accept(AlwaysSkibidiModBlocks.DEAD_FENCE.get().asItem());
+			tabData.accept(AlwaysSkibidiModBlocks.DEAD_FENCE_GATE.get().asItem());
+			tabData.accept(AlwaysSkibidiModBlocks.DEAD_PRESSURE_PLATE.get().asItem());
+			tabData.accept(AlwaysSkibidiModBlocks.DEAD_BUTTON.get().asItem());
+		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(AlwaysSkibidiModItems.TEST_ENTITY_SPAWN_EGG.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+			tabData.accept(AlwaysSkibidiModBlocks.DEAD_LEAVES.get().asItem());
 		}
 	}
 }

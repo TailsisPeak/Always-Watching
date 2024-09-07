@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "always_skibidi:blocks/dead_stairs",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "always_skibidi:dead_stairs"
+        }
+      ]
+    }
+  ]
+}
