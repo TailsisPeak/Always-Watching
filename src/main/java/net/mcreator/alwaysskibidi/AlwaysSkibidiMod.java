@@ -18,6 +18,7 @@ import net.minecraft.network.protocol.common.custom.CustomPacketPayload;
 import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.alwaysskibidi.init.AlwaysSkibidiModTabs;
 import net.mcreator.alwaysskibidi.init.AlwaysSkibidiModMobEffects;
 import net.mcreator.alwaysskibidi.init.AlwaysSkibidiModItems;
 
@@ -40,6 +41,8 @@ public class AlwaysSkibidiMod {
 		modEventBus.addListener(this::registerNetworking);
 
 		AlwaysSkibidiModItems.REGISTRY.register(modEventBus);
+
+		AlwaysSkibidiModTabs.REGISTRY.register(modEventBus);
 
 		AlwaysSkibidiModMobEffects.REGISTRY.register(modEventBus);
 

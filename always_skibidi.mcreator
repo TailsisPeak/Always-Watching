@@ -56,7 +56,9 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "biome.always_skibidi.stalking_forests": "Stalking Forests"
+      "biome.always_skibidi.stalking_forests": "Stalking Forests",
+      "item.always_skibidi.a_gift_from_the_forest": "A Gift From The Forest",
+      "item_group.always_skibidi.always_watching": "Always Watching"
     }
   },
   "foldersRoot": {

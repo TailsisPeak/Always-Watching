@@ -9,7 +9,11 @@
     "states": [],
     "name": "A Gift From The Forest",
     "rarity": "RARE",
-    "creativeTabs": [],
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:AlwaysWatching"
+      }
+    ],
     "stackSize": 64,
     "enchantability": 0,
     "useDuration": 0,
