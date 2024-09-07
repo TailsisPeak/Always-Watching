@@ -1,28 +1,11 @@
 {
-  "mod_elements": [
-    {
-      "name": "Alwayswatchingforever",
-      "type": "biome",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "alwayswatchingforever",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/always_skibidi/worldgen/placed_feature/alwayswatchingforever_tree.json",
-          "src/main/resources/data/always_skibidi/worldgen/biome/alwayswatchingforever.json",
-          "src/main/resources/data/always_skibidi/worldgen/configured_feature/alwayswatchingforever_tree.json"
-        ]
-      }
-    }
-  ],
+  "mod_elements": [],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {},
   "tab_element_order": {},
   "language_map": {
-    "en_us": {
-      "biome.always_skibidi.alwayswatchingforever": "The Stalking Forest"
-    }
+    "en_us": {}
   },
   "foldersRoot": {
     "name": "~",
