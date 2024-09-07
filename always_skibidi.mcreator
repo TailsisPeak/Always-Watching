@@ -13,6 +13,16 @@
           "src/main/resources/data/always_skibidi/worldgen/configured_feature/alwayswatchingforever_tree.json"
         ]
       }
+    },
+    {
+      "name": "Stalking",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stalking",
+      "metadata": {
+        "files": []
+      }
     }
   ],
   "variable_elements": [],
@@ -21,7 +31,8 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "biome.always_skibidi.alwayswatchingforever": "The Stalking Forest"
+      "biome.always_skibidi.alwayswatchingforever": "The Stalking Forest",
+      "item_group.always_skibidi.stalking": "Stalking"
     }
   },
   "foldersRoot": {
