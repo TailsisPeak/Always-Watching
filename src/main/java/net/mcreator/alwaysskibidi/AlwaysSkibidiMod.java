@@ -21,6 +21,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.mcreator.alwaysskibidi.init.AlwaysSkibidiModTabs;
 import net.mcreator.alwaysskibidi.init.AlwaysSkibidiModMobEffects;
 import net.mcreator.alwaysskibidi.init.AlwaysSkibidiModItems;
+import net.mcreator.alwaysskibidi.init.AlwaysSkibidiModEntities;
 
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.Map;
@@ -41,7 +42,7 @@ public class AlwaysSkibidiMod {
 		modEventBus.addListener(this::registerNetworking);
 
 		AlwaysSkibidiModItems.REGISTRY.register(modEventBus);
-
+		AlwaysSkibidiModEntities.REGISTRY.register(modEventBus);
 		AlwaysSkibidiModTabs.REGISTRY.register(modEventBus);
 
 		AlwaysSkibidiModMobEffects.REGISTRY.register(modEventBus);

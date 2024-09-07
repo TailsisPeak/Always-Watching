@@ -27,6 +27,6 @@ public class TheCurseOfTheForestActiveTickConditionProcedure {
 									((entity instanceof ServerPlayer _player && !_player.level().isClientSide())
 											? ((_player.getRespawnDimension().equals(_player.level().dimension()) && _player.getRespawnPosition() != null) ? _player.getRespawnPosition().getZ() : _player.level().getLevelData().getSpawnPos().getZ())
 											: 0)),
-							Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(), "effect @s add slowness 10 10");
+							Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(), "effect add @p slowness 10 10");
 	}
 }

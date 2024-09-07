@@ -92,6 +92,21 @@
           }
         ]
       }
+    },
+    {
+      "name": "TestEntity",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alwaysskibidi/entity/TestEntityEntity.java",
+          "src/main/java/net/mcreator/alwaysskibidi/client/renderer/TestEntityRenderer.java",
+          "src/main/resources/assets/always_skibidi/models/item/test_entity_spawn_egg.json",
+          "src/main/resources/data/always_skibidi/neoforge/biome_modifier/test_entity_biome_modifier.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -100,7 +115,10 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
+      "item.always_skibidi.test_entity_spawn_egg": "Test Entity Spawn Egg",
+      "entity.always_skibidi.test_entity": "Test Entity",
       "biome.always_skibidi.stalking_forests": "Stalking Forests",
+      "effect.always_skibidi.the_curse_of_the_forest": "The Curse Of The Forest",
       "item.always_skibidi.a_gift_from_the_forest": "A Gift From The Forest",
       "item_group.always_skibidi.always_watching": "Always Watching"
     }
