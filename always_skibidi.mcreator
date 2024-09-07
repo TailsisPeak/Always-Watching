@@ -8,9 +8,9 @@
       "registry_name": "stalking_forests",
       "metadata": {
         "files": [
+          "src/main/resources/data/always_skibidi/worldgen/biome/stalking_forests.json",
           "src/main/resources/data/always_skibidi/worldgen/configured_feature/stalking_forests_tree.json",
-          "src/main/resources/data/always_skibidi/worldgen/placed_feature/stalking_forests_tree.json",
-          "src/main/resources/data/always_skibidi/worldgen/biome/stalking_forests.json"
+          "src/main/resources/data/always_skibidi/worldgen/placed_feature/stalking_forests_tree.json"
         ]
       }
     },
@@ -62,6 +62,65 @@
           "src/main/resources/assets/always_skibidi/blockstates/dead_log.json",
           "src/main/resources/assets/always_skibidi/models/item/dead_log.json",
           "src/main/resources/assets/always_skibidi/models/block/dead_log.json"
+        ]
+      }
+    },
+    {
+      "name": "TestEntity",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alwaysskibidi/entity/TestEntityEntity.java",
+          "src/main/resources/data/always_skibidi/neoforge/biome_modifier/test_entity_biome_modifier.json",
+          "src/main/java/net/mcreator/alwaysskibidi/client/renderer/TestEntityRenderer.java",
+          "src/main/resources/assets/always_skibidi/models/item/test_entity_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "TestEntityOnInitialEntitySpawn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_entity_on_initial_entity_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alwaysskibidi/procedures/TestEntityOnInitialEntitySpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TheCurseOfTheForestActiveTickCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_curse_of_the_forest_active_tick_condition",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alwaysskibidi/procedures/TheCurseOfTheForestActiveTickConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
         ]
       }
     }

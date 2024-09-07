@@ -4,7 +4,7 @@
   "definition": {
     "name": "Always Watching",
     "icon": {
-      "value": "Blocks.AIR"
+      "value": "CUSTOM:AGiftFromTheForest"
     },
     "showSearch": false
   }
