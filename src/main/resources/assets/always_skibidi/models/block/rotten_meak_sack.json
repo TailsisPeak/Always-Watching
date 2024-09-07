@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "always_skibidi:block/meat_sack",
+    "up": "always_skibidi:block/meat_sack",
+    "north": "always_skibidi:block/meat_sack",
+    "east": "always_skibidi:block/meat_sack",
+    "south": "always_skibidi:block/meat_sack",
+    "west": "always_skibidi:block/meat_sack",
+    "particle": "always_skibidi:block/meat_sack"
+  },
+  "render_type": "solid"
+}

@@ -9,6 +9,7 @@ import net.neoforged.neoforge.registries.DeferredHolder;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.alwaysskibidi.block.RottenMeakSackBlock;
 import net.mcreator.alwaysskibidi.block.DeadWoodBlock;
 import net.mcreator.alwaysskibidi.block.DeadStairsBlock;
 import net.mcreator.alwaysskibidi.block.DeadSlabBlock;
@@ -33,6 +34,7 @@ public class AlwaysSkibidiModBlocks {
 	public static final DeferredHolder<Block, Block> DEAD_FENCE_GATE = REGISTRY.register("dead_fence_gate", DeadFenceGateBlock::new);
 	public static final DeferredHolder<Block, Block> DEAD_PRESSURE_PLATE = REGISTRY.register("dead_pressure_plate", DeadPressurePlateBlock::new);
 	public static final DeferredHolder<Block, Block> DEAD_BUTTON = REGISTRY.register("dead_button", DeadButtonBlock::new);
+	public static final DeferredHolder<Block, Block> ROTTEN_MEAK_SACK = REGISTRY.register("rotten_meak_sack", RottenMeakSackBlock::new);
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

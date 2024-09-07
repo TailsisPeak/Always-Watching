@@ -47,6 +47,10 @@
       "offset": 0,
       "height": 3
     },
-    "decorators": []
+    "decorators": [
+      {
+        "type": "always_skibidi:stalking_forests_tree_fruit_decorator"
+      }
+    ]
   }
 }

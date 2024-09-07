@@ -39,6 +39,7 @@ public class AlwaysSkibidiModItems {
 	public static final DeferredHolder<Item, Item> DEAD_TOOLS_SWORD = REGISTRY.register("dead_tools_sword", DeadToolsSwordItem::new);
 	public static final DeferredHolder<Item, Item> DEAD_TOOLS_SHOVEL = REGISTRY.register("dead_tools_shovel", DeadToolsShovelItem::new);
 	public static final DeferredHolder<Item, Item> DEAD_TOOLS_HOE = REGISTRY.register("dead_tools_hoe", DeadToolsHoeItem::new);
+	public static final DeferredHolder<Item, Item> ROTTEN_MEAK_SACK = block(AlwaysSkibidiModBlocks.ROTTEN_MEAK_SACK);
 
 	// Start of user code block custom items
 	// End of user code block custom items
