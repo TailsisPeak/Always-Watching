@@ -1,11 +1,28 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "StalkingForests",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stalking_forests",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/always_skibidi/worldgen/biome/stalking_forests.json",
+          "src/main/resources/data/always_skibidi/worldgen/configured_feature/stalking_forests_tree.json",
+          "src/main/resources/data/always_skibidi/worldgen/placed_feature/stalking_forests_tree.json"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {},
   "tab_element_order": {},
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "biome.always_skibidi.stalking_forests": "Stalking Forests"
+    }
   },
   "foldersRoot": {
     "name": "~",
