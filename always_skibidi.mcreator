@@ -123,18 +123,6 @@
           }
         ]
       }
-    },
-    {
-      "name": "Test",
-      "type": "command",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "test",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/alwaysskibidi/command/TestCommand.java"
-        ]
-      }
     }
   ],
   "variable_elements": [],
