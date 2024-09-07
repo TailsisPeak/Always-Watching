@@ -13,6 +13,28 @@
           "src/main/resources/data/always_skibidi/worldgen/placed_feature/stalking_forests_tree.json"
         ]
       }
+    },
+    {
+      "name": "AlwaysWatching",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "always_watching",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "TheCurseOfTheForest",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_curse_of_the_forest",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alwaysskibidi/potion/TheCurseOfTheForestMobEffect.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -21,7 +43,9 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "biome.always_skibidi.stalking_forests": "Stalking Forests"
+      "biome.always_skibidi.stalking_forests": "Stalking Forests",
+      "effect.always_skibidi.the_curse_of_the_forest": "The Curse Of The Forest",
+      "item_group.always_skibidi.always_watching": "Always Watching"
     }
   },
   "foldersRoot": {
