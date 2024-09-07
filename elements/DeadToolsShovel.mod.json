@@ -5,7 +5,7 @@
     "toolType": "Spade",
     "renderType": 0,
     "blockingRenderType": 0,
-    "texture": "deadtools_shovel",
+    "texture": "brokeshovel",
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
     "name": "DeadTools Shovel",

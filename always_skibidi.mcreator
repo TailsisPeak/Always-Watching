@@ -434,8 +434,8 @@
       "registry_name": "dead_tools_axe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/alwaysskibidi/item/DeadToolsAxeItem.java",
-          "src/main/resources/assets/always_skibidi/models/item/dead_tools_axe.json"
+          "src/main/resources/assets/always_skibidi/models/item/dead_tools_axe.json",
+          "src/main/java/net/mcreator/alwaysskibidi/item/DeadToolsAxeItem.java"
         ]
       }
     },
