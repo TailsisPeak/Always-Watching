@@ -27,6 +27,6 @@ public class TestEntityOnInitialEntitySpawnProcedure {
 									((entity instanceof ServerPlayer _player && !_player.level().isClientSide())
 											? ((_player.getRespawnDimension().equals(_player.level().dimension()) && _player.getRespawnPosition() != null) ? _player.getRespawnPosition().getZ() : _player.level().getLevelData().getSpawnPos().getZ())
 											: 0)),
-							Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(), "effect @p thecurseoftheforest 10 10");
+							Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(), "effect give @p always_skibidi:the_curse_of_the_forest 10 10");
 	}
 }
