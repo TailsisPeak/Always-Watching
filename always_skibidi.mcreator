@@ -26,6 +26,28 @@
           "src/main/resources/assets/always_skibidi/models/item/a_gift_from_the_forest.json"
         ]
       }
+    },
+    {
+      "name": "TheCurseOfTheForest",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_curse_of_the_forest",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alwaysskibidi/potion/TheCurseOfTheForestMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "AlwaysWatching",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "always_watching",
+      "metadata": {
+        "files": []
+      }
     }
   ],
   "variable_elements": [],
@@ -34,8 +56,7 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "biome.always_skibidi.stalking_forests": "Stalking Forests",
-      "item.always_skibidi.a_gift_from_the_forest": "A Gift From The Forest"
+      "biome.always_skibidi.stalking_forests": "Stalking Forests"
     }
   },
   "foldersRoot": {

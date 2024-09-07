@@ -18,6 +18,7 @@ import net.minecraft.network.protocol.common.custom.CustomPacketPayload;
 import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.alwaysskibidi.init.AlwaysSkibidiModMobEffects;
 import net.mcreator.alwaysskibidi.init.AlwaysSkibidiModItems;
 
 import java.util.concurrent.ConcurrentLinkedQueue;
@@ -39,6 +40,8 @@ public class AlwaysSkibidiMod {
 		modEventBus.addListener(this::registerNetworking);
 
 		AlwaysSkibidiModItems.REGISTRY.register(modEventBus);
+
+		AlwaysSkibidiModMobEffects.REGISTRY.register(modEventBus);
 
 		// Start of user code block mod init
 		// End of user code block mod init
