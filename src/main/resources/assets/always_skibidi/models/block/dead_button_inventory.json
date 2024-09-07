@@ -1,8 +1,8 @@
 {
   "parent": "block/button_inventory",
   "textures": {
-    "particle": "always_skibidi:block/dead_planks",
-    "texture": "always_skibidi:block/dead_planks"
+    "particle": "always_skibidi:block/ibutton",
+    "texture": "always_skibidi:block/ibutton"
   },
   "render_type": "solid"
 }
