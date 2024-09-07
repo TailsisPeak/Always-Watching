@@ -13,6 +13,19 @@
           "src/main/resources/data/always_skibidi/worldgen/placed_feature/stalking_forests_tree.json"
         ]
       }
+    },
+    {
+      "name": "AGiftFromTheForest",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a_gift_from_the_forest",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alwaysskibidi/item/AGiftFromTheForestItem.java",
+          "src/main/resources/assets/always_skibidi/models/item/a_gift_from_the_forest.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -21,7 +34,8 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "biome.always_skibidi.stalking_forests": "Stalking Forests"
+      "biome.always_skibidi.stalking_forests": "Stalking Forests",
+      "item.always_skibidi.a_gift_from_the_forest": "A Gift From The Forest"
     }
   },
   "foldersRoot": {
