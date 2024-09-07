@@ -12,6 +12,11 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.alwaysskibidi.item.DeadToolsSwordItem;
+import net.mcreator.alwaysskibidi.item.DeadToolsShovelItem;
+import net.mcreator.alwaysskibidi.item.DeadToolsPickaxeItem;
+import net.mcreator.alwaysskibidi.item.DeadToolsHoeItem;
+import net.mcreator.alwaysskibidi.item.DeadToolsAxeItem;
 import net.mcreator.alwaysskibidi.item.AGiftFromTheForestItem;
 import net.mcreator.alwaysskibidi.AlwaysSkibidiMod;
 
@@ -29,6 +34,11 @@ public class AlwaysSkibidiModItems {
 	public static final DeferredHolder<Item, Item> DEAD_FENCE_GATE = block(AlwaysSkibidiModBlocks.DEAD_FENCE_GATE);
 	public static final DeferredHolder<Item, Item> DEAD_PRESSURE_PLATE = block(AlwaysSkibidiModBlocks.DEAD_PRESSURE_PLATE);
 	public static final DeferredHolder<Item, Item> DEAD_BUTTON = block(AlwaysSkibidiModBlocks.DEAD_BUTTON);
+	public static final DeferredHolder<Item, Item> DEAD_TOOLS_PICKAXE = REGISTRY.register("dead_tools_pickaxe", DeadToolsPickaxeItem::new);
+	public static final DeferredHolder<Item, Item> DEAD_TOOLS_AXE = REGISTRY.register("dead_tools_axe", DeadToolsAxeItem::new);
+	public static final DeferredHolder<Item, Item> DEAD_TOOLS_SWORD = REGISTRY.register("dead_tools_sword", DeadToolsSwordItem::new);
+	public static final DeferredHolder<Item, Item> DEAD_TOOLS_SHOVEL = REGISTRY.register("dead_tools_shovel", DeadToolsShovelItem::new);
+	public static final DeferredHolder<Item, Item> DEAD_TOOLS_HOE = REGISTRY.register("dead_tools_hoe", DeadToolsHoeItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items
