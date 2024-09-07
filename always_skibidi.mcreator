@@ -1,0 +1,47 @@
+{
+  "mod_elements": [
+    {
+      "name": "Alwayswatchingforever",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alwayswatchingforever",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/always_skibidi/worldgen/placed_feature/alwayswatchingforever_tree.json",
+          "src/main/resources/data/always_skibidi/worldgen/biome/alwayswatchingforever.json",
+          "src/main/resources/data/always_skibidi/worldgen/configured_feature/alwayswatchingforever_tree.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "biome.always_skibidi.alwayswatchingforever": "The Stalking Forest"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "always_skibidi",
+    "modName": "always skibidi",
+    "version": "1.0.0",
+    "author": "Israel, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.20.6",
+    "modElementsPackage": "net.mcreator.alwaysskibidi"
+  },
+  "mcreatorVersion": 202400232117
+}
