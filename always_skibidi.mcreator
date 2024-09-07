@@ -48,6 +48,28 @@
       "metadata": {
         "files": []
       }
+    },
+    {
+      "name": "TheCurseOfTheForestActiveTickCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_curse_of_the_forest_active_tick_condition",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alwaysskibidi/procedures/TheCurseOfTheForestActiveTickConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
