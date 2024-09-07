@@ -2,7 +2,7 @@
   "_fv": 66,
   "_type": "tool",
   "definition": {
-    "toolType": "Pickaxe",
+    "toolType": "Sword",
     "renderType": 0,
     "blockingRenderType": 0,
     "texture": "greatblade",
@@ -15,19 +15,22 @@
     "creativeTabs": [
       {
         "value": "TOOLS"
+      },
+      {
+        "value": "CUSTOM:AlwaysWatching"
       }
     ],
-    "efficiency": 4.0,
-    "attackSpeed": 1.0,
+    "efficiency": 10.0,
+    "attackSpeed": 0.5,
     "enchantability": 2,
-    "damageVsEntity": 4.0,
+    "damageVsEntity": 9.0,
     "usageCount": 100,
     "glowCondition": {
       "fixedValue": false
     },
     "repairItems": [],
     "immuneToFire": false,
-    "blockDropsTier": "WOOD",
+    "blockDropsTier": "IRON",
     "blocksAffected": [],
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false

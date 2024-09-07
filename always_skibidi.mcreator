@@ -598,7 +598,6 @@
       "~CUSTOM:DeadFence"
     ],
     "ITEMS:minecraft:pickaxes": [
-      "~CUSTOM:DeadGreatSword",
       "~CUSTOM:DeadToolsPickaxe"
     ],
     "ITEMS:minecraft:axes": [
@@ -608,6 +607,7 @@
       "~CUSTOM:DeadStairs"
     ],
     "ITEMS:minecraft:swords": [
+      "~CUSTOM:DeadGreatSword",
       "~CUSTOM:DeadToolsSword"
     ],
     "ITEMS:minecraft:hoes": [
