@@ -21,7 +21,7 @@
       "falpha": 0.0
     },
     "foliageColor": {
-      "value": -16765952,
+      "value": -11643314,
       "falpha": 0.0
     },
     "waterColor": {
@@ -77,13 +77,13 @@
     },
     "treesPerChunk": 13,
     "vanillaTreeType": "Default",
-    "treeType": 0,
+    "treeType": 1,
     "minHeight": 7,
     "treeStem": {
-      "value": ""
+      "value": "CUSTOM:DeadLog"
     },
     "treeBranch": {
-      "value": ""
+      "value": "Blocks.LEAVES#0"
     },
     "treeVines": {
       "value": ""

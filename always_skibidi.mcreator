@@ -8,9 +8,9 @@
       "registry_name": "stalking_forests",
       "metadata": {
         "files": [
-          "src/main/resources/data/always_skibidi/worldgen/biome/stalking_forests.json",
           "src/main/resources/data/always_skibidi/worldgen/configured_feature/stalking_forests_tree.json",
-          "src/main/resources/data/always_skibidi/worldgen/placed_feature/stalking_forests_tree.json"
+          "src/main/resources/data/always_skibidi/worldgen/placed_feature/stalking_forests_tree.json",
+          "src/main/resources/data/always_skibidi/worldgen/biome/stalking_forests.json"
         ]
       }
     },
@@ -48,6 +48,22 @@
       "metadata": {
         "files": []
       }
+    },
+    {
+      "name": "DeadLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dead_log",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alwaysskibidi/block/DeadLogBlock.java",
+          "src/main/resources/data/always_skibidi/loot_tables/blocks/dead_log.json",
+          "src/main/resources/assets/always_skibidi/blockstates/dead_log.json",
+          "src/main/resources/assets/always_skibidi/models/item/dead_log.json",
+          "src/main/resources/assets/always_skibidi/models/block/dead_log.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -56,7 +72,11 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "biome.always_skibidi.stalking_forests": "Stalking Forests"
+      "biome.always_skibidi.stalking_forests": "Stalking Forests",
+      "effect.always_skibidi.the_curse_of_the_forest": "The Curse Of The Forest",
+      "block.always_skibidi.dead_log": "Dead Log",
+      "item.always_skibidi.a_gift_from_the_forest": "A Gift From The Forest",
+      "item_group.always_skibidi.always_watching": "Always Watching"
     }
   },
   "foldersRoot": {

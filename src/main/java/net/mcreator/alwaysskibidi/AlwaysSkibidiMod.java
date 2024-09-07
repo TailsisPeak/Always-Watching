@@ -20,6 +20,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.alwaysskibidi.init.AlwaysSkibidiModMobEffects;
 import net.mcreator.alwaysskibidi.init.AlwaysSkibidiModItems;
+import net.mcreator.alwaysskibidi.init.AlwaysSkibidiModBlocks;
 
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.Map;
@@ -38,6 +39,8 @@ public class AlwaysSkibidiMod {
 		// End of user code block mod constructor
 		NeoForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::registerNetworking);
+
+		AlwaysSkibidiModBlocks.REGISTRY.register(modEventBus);
 
 		AlwaysSkibidiModItems.REGISTRY.register(modEventBus);
 

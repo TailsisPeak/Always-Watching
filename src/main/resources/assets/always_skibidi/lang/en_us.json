@@ -1,3 +1,7 @@
 {
-  "biome.always_skibidi.stalking_forests": "Stalking Forests"
+  "biome.always_skibidi.stalking_forests": "Stalking Forests",
+  "effect.always_skibidi.the_curse_of_the_forest": "The Curse Of The Forest",
+  "block.always_skibidi.dead_log": "Dead Log",
+  "item.always_skibidi.a_gift_from_the_forest": "A Gift From The Forest",
+  "item_group.always_skibidi.always_watching": "Always Watching"
 }

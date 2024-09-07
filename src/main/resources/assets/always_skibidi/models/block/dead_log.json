@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "always_skibidi:block/deadlogtop",
+    "up": "always_skibidi:block/deadlogtop",
+    "north": "always_skibidi:block/deadlogside",
+    "east": "always_skibidi:block/deadlogside",
+    "south": "always_skibidi:block/deadlogside",
+    "west": "always_skibidi:block/deadlogside",
+    "particle": "always_skibidi:block/deadlogtop"
+  },
+  "render_type": "solid"
+}
