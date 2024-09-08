@@ -20,6 +20,7 @@ import net.mcreator.alwaysskibidi.item.DeadToolsAxeItem;
 import net.mcreator.alwaysskibidi.item.DeadGreatSwordItem;
 import net.mcreator.alwaysskibidi.item.AdavancetechItem;
 import net.mcreator.alwaysskibidi.item.AGiftFromTheForestItem;
+import net.mcreator.alwaysskibidi.item.ADVgooglesItem;
 import net.mcreator.alwaysskibidi.AlwaysSkibidiMod;
 
 public class AlwaysSkibidiModItems {
@@ -44,6 +45,7 @@ public class AlwaysSkibidiModItems {
 	public static final DeferredHolder<Item, Item> ROTTEN_MEAK_SACK = block(AlwaysSkibidiModBlocks.ROTTEN_MEAK_SACK);
 	public static final DeferredHolder<Item, Item> DEAD_GREAT_SWORD = REGISTRY.register("dead_great_sword", DeadGreatSwordItem::new);
 	public static final DeferredHolder<Item, Item> ADAVANCETECH = REGISTRY.register("adavancetech", AdavancetechItem::new);
+	public static final DeferredHolder<Item, Item> AD_VGOOGLES_HELMET = REGISTRY.register("ad_vgoogles_helmet", ADVgooglesItem.Helmet::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items

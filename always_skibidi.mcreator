@@ -603,6 +603,19 @@
           "src/main/java/net/mcreator/alwaysskibidi/item/AdavancetechItem.java"
         ]
       }
+    },
+    {
+      "name": "ADVgoogles",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ad_vgoogles",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/always_skibidi/models/item/ad_vgoogles_helmet.json",
+          "src/main/java/net/mcreator/alwaysskibidi/item/ADVgooglesItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -640,6 +653,9 @@
     ],
     "ITEMS:minecraft:shovels": [
       "~CUSTOM:DeadToolsShovel"
+    ],
+    "ITEMS:minecraft:head_armor": [
+      "~CUSTOM:ADVgoogles.helmet"
     ]
   },
   "tab_element_order": {},
@@ -666,6 +682,7 @@
       "block.always_skibidi.dead_slab": "Dead Slab",
       "item.always_skibidi.dead_tools_sword": "DeadTools Sword",
       "item.always_skibidi.dead_tools_axe": "DeadTools Axe",
+      "item.always_skibidi.ad_vgoogles_helmet": "AD Vgoogles Helmet",
       "item.always_skibidi.dead_great_sword": "Dead Great Sword",
       "item.always_skibidi.adavancetech": "Adavancetech",
       "item_group.always_skibidi.always_watching": "Always Watching"
