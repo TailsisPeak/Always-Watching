@@ -43,6 +43,7 @@ public class AlwaysSkibidiModTabs {
 			tabData.accept(AlwaysSkibidiModBlocks.DEAD_BUTTON.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 			tabData.accept(AlwaysSkibidiModItems.DEAD_TOOLS_SWORD.get());
+			tabData.accept(AlwaysSkibidiModItems.DEAD_GREAT_SWORD.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(AlwaysSkibidiModItems.TEST_ENTITY_SPAWN_EGG.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
@@ -52,7 +53,6 @@ public class AlwaysSkibidiModTabs {
 			tabData.accept(AlwaysSkibidiModItems.DEAD_TOOLS_AXE.get());
 			tabData.accept(AlwaysSkibidiModItems.DEAD_TOOLS_SHOVEL.get());
 			tabData.accept(AlwaysSkibidiModItems.DEAD_TOOLS_HOE.get());
-			tabData.accept(AlwaysSkibidiModItems.DEAD_GREAT_SWORD.get());
 		}
 	}
 }
