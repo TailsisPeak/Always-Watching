@@ -18,6 +18,7 @@ import net.mcreator.alwaysskibidi.item.DeadToolsPickaxeItem;
 import net.mcreator.alwaysskibidi.item.DeadToolsHoeItem;
 import net.mcreator.alwaysskibidi.item.DeadToolsAxeItem;
 import net.mcreator.alwaysskibidi.item.DeadGreatSwordItem;
+import net.mcreator.alwaysskibidi.item.AdavancetechItem;
 import net.mcreator.alwaysskibidi.item.AGiftFromTheForestItem;
 import net.mcreator.alwaysskibidi.AlwaysSkibidiMod;
 
@@ -42,6 +43,7 @@ public class AlwaysSkibidiModItems {
 	public static final DeferredHolder<Item, Item> DEAD_TOOLS_HOE = REGISTRY.register("dead_tools_hoe", DeadToolsHoeItem::new);
 	public static final DeferredHolder<Item, Item> ROTTEN_MEAK_SACK = block(AlwaysSkibidiModBlocks.ROTTEN_MEAK_SACK);
 	public static final DeferredHolder<Item, Item> DEAD_GREAT_SWORD = REGISTRY.register("dead_great_sword", DeadGreatSwordItem::new);
+	public static final DeferredHolder<Item, Item> ADAVANCETECH = REGISTRY.register("adavancetech", AdavancetechItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items
