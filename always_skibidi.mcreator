@@ -565,6 +565,19 @@
           "src/main/resources/assets/always_skibidi/blockstates/rotten_meak_sack.json"
         ]
       }
+    },
+    {
+      "name": "DeadGreatSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dead_great_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alwaysskibidi/item/DeadGreatSwordItem.java",
+          "src/main/resources/assets/always_skibidi/models/item/dead_great_sword.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -585,6 +598,7 @@
       "~CUSTOM:DeadFence"
     ],
     "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:DeadGreatSword",
       "~CUSTOM:DeadToolsPickaxe"
     ],
     "ITEMS:minecraft:axes": [
@@ -627,6 +641,7 @@
       "item.always_skibidi.dead_tools_axe": "DeadTools Axe",
       "item.always_skibidi.a_gift_from_the_forest": "A Gift From The Forest",
       "block.always_skibidi.dead_stairs": "Dead Stairs",
+      "item.always_skibidi.dead_great_sword": "Dead Great Sword",
       "item_group.always_skibidi.always_watching": "Always Watching"
     }
   },

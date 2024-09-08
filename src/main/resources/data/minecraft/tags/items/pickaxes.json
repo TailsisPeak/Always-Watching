@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "always_skibidi:dead_great_sword",
     "always_skibidi:dead_tools_pickaxe"
   ]
 }

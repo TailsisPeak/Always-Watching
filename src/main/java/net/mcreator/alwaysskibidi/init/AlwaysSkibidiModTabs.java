@@ -52,6 +52,7 @@ public class AlwaysSkibidiModTabs {
 			tabData.accept(AlwaysSkibidiModItems.DEAD_TOOLS_AXE.get());
 			tabData.accept(AlwaysSkibidiModItems.DEAD_TOOLS_SHOVEL.get());
 			tabData.accept(AlwaysSkibidiModItems.DEAD_TOOLS_HOE.get());
+			tabData.accept(AlwaysSkibidiModItems.DEAD_GREAT_SWORD.get());
 		}
 	}
 }
