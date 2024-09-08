@@ -14,23 +14,24 @@
     },
     "creativeTabs": [
       {
-        "value": "TOOLS"
-      },
-      {
-        "value": "CUSTOM:AlwaysWatching"
+        "value": "COMBAT"
       }
     ],
-    "efficiency": 10.0,
-    "attackSpeed": 0.5,
+    "efficiency": 0.0,
+    "attackSpeed": 2.5,
     "enchantability": 2,
-    "damageVsEntity": 9.0,
-    "usageCount": 100,
+    "damageVsEntity": 6.0,
+    "usageCount": 150,
     "glowCondition": {
       "fixedValue": false
     },
-    "repairItems": [],
-    "immuneToFire": false,
-    "blockDropsTier": "IRON",
+    "repairItems": [
+      {
+        "value": "CUSTOM:AGiftFromTheForest"
+      }
+    ],
+    "immuneToFire": true,
+    "blockDropsTier": "WOOD",
     "blocksAffected": [],
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false
