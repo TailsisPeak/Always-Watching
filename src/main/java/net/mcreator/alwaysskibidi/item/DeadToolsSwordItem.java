@@ -16,7 +16,7 @@ public class DeadToolsSwordItem extends SwordItem {
 	private static final Tier TOOL_TIER = new Tier() {
 		@Override
 		public int getUses() {
-			return 50;
+			return 250;
 		}
 
 		@Override
@@ -46,6 +46,6 @@ public class DeadToolsSwordItem extends SwordItem {
 	};
 
 	public DeadToolsSwordItem() {
-		super(TOOL_TIER, new Item.Properties().attributes(SwordItem.createAttributes(TOOL_TIER, 2f, -2.6f)));
+		super(TOOL_TIER, new Item.Properties().attributes(SwordItem.createAttributes(TOOL_TIER, 3f, -2.4f)));
 	}
 }
