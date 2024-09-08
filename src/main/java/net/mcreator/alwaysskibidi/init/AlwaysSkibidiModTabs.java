@@ -24,8 +24,6 @@ public class AlwaysSkibidiModTabs {
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> ALWAYS_WATCHING = REGISTRY.register("always_watching",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.always_skibidi.always_watching")).icon(() -> new ItemStack(AlwaysSkibidiModItems.A_GIFT_FROM_THE_FOREST.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(AlwaysSkibidiModItems.A_GIFT_FROM_THE_FOREST.get());
-				tabData.accept(AlwaysSkibidiModBlocks.DEAD_WOOD.get().asItem());
-				tabData.accept(AlwaysSkibidiModBlocks.DEAD_LOG.get().asItem());
 				tabData.accept(AlwaysSkibidiModBlocks.ROTTEN_MEAK_SACK.get().asItem());
 			})
 
