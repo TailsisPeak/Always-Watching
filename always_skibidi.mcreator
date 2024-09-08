@@ -578,6 +578,18 @@
           "src/main/resources/assets/always_skibidi/models/item/dead_great_sword.json"
         ]
       }
+    },
+    {
+      "name": "DeadGreatSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dead_great_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/always_skibidi/recipes/dead_great_sword_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -598,6 +610,7 @@
       "~CUSTOM:DeadFence"
     ],
     "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:DeadGreatSword",
       "~CUSTOM:DeadToolsPickaxe"
     ],
     "ITEMS:minecraft:axes": [
@@ -607,7 +620,6 @@
       "~CUSTOM:DeadStairs"
     ],
     "ITEMS:minecraft:swords": [
-      "~CUSTOM:DeadGreatSword",
       "~CUSTOM:DeadToolsSword"
     ],
     "ITEMS:minecraft:hoes": [

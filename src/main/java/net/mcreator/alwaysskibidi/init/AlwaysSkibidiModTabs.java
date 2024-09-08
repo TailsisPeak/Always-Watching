@@ -25,7 +25,6 @@ public class AlwaysSkibidiModTabs {
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.always_skibidi.always_watching")).icon(() -> new ItemStack(AlwaysSkibidiModItems.A_GIFT_FROM_THE_FOREST.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(AlwaysSkibidiModItems.A_GIFT_FROM_THE_FOREST.get());
 				tabData.accept(AlwaysSkibidiModBlocks.ROTTEN_MEAK_SACK.get().asItem());
-				tabData.accept(AlwaysSkibidiModItems.DEAD_GREAT_SWORD.get());
 			})
 
 					.build());
