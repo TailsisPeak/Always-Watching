@@ -83,13 +83,13 @@
       "value": "CUSTOM:DeadLog"
     },
     "treeBranch": {
-      "value": "CUSTOM:DeadLeaves"
+      "value": "Blocks.AIR"
     },
     "treeVines": {
       "value": ""
     },
     "treeFruits": {
-      "value": "CUSTOM:RottenMeakSack"
+      "value": ""
     },
     "defaultFeatures": [
       "Caves",

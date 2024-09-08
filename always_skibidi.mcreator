@@ -8,7 +8,6 @@
       "registry_name": "stalking_forests",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/alwaysskibidi/world/features/treedecorators/StalkingForestsFruitDecorator.java",
           "src/main/resources/data/always_skibidi/worldgen/biome/stalking_forests.json",
           "src/main/resources/data/always_skibidi/worldgen/configured_feature/stalking_forests_tree.json",
           "src/main/resources/data/always_skibidi/worldgen/placed_feature/stalking_forests_tree.json"
