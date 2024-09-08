@@ -411,6 +411,131 @@
           "src/main/resources/data/always_skibidi/recipes/crafting_table.json"
         ]
       }
+    },
+    {
+      "name": "DeadToolsPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dead_tools_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/always_skibidi/models/item/dead_tools_pickaxe.json",
+          "src/main/java/net/mcreator/alwaysskibidi/item/DeadToolsPickaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "DeadToolsAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dead_tools_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alwaysskibidi/item/DeadToolsAxeItem.java",
+          "src/main/resources/assets/always_skibidi/models/item/dead_tools_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "DeadToolsSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dead_tools_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alwaysskibidi/item/DeadToolsSwordItem.java",
+          "src/main/resources/assets/always_skibidi/models/item/dead_tools_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "DeadToolsShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dead_tools_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alwaysskibidi/item/DeadToolsShovelItem.java",
+          "src/main/resources/assets/always_skibidi/models/item/dead_tools_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "DeadToolsHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dead_tools_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alwaysskibidi/item/DeadToolsHoeItem.java",
+          "src/main/resources/assets/always_skibidi/models/item/dead_tools_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "DeadToolsPickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dead_tools_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/always_skibidi/recipes/dead_tools_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DeadToolsAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dead_tools_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/always_skibidi/recipes/dead_tools_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DeadToolsSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dead_tools_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/always_skibidi/recipes/dead_tools_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DeadToolsShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dead_tools_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/always_skibidi/recipes/dead_tools_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DeadToolsHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dead_tools_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/always_skibidi/recipes/dead_tools_hoe_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -430,8 +555,23 @@
     "BLOCKS:minecraft:fences": [
       "~CUSTOM:DeadFence"
     ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:DeadToolsPickaxe"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:DeadToolsAxe"
+    ],
     "BLOCKS:minecraft:stairs": [
       "~CUSTOM:DeadStairs"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:DeadToolsSword"
+    ],
+    "ITEMS:minecraft:hoes": [
+      "~CUSTOM:DeadToolsHoe"
+    ],
+    "ITEMS:minecraft:shovels": [
+      "~CUSTOM:DeadToolsShovel"
     ]
   },
   "tab_element_order": {},
@@ -445,11 +585,16 @@
       "biome.always_skibidi.stalking_forests": "Stalking Forests",
       "block.always_skibidi.dead_wood": "Dead Wood",
       "block.always_skibidi.dead_log": "Dead Log",
+      "item.always_skibidi.dead_tools_hoe": "DeadTools Hoe",
       "item.always_skibidi.test_entity_spawn_egg": "Test Entity Spawn Egg",
       "block.always_skibidi.dead_fence_gate": "Dead Fence Gate",
       "entity.always_skibidi.test_entity": "Test Entity",
+      "item.always_skibidi.dead_tools_shovel": "DeadTools Shovel",
       "effect.always_skibidi.the_curse_of_the_forest": "The Curse Of The Forest",
       "block.always_skibidi.dead_slab": "Dead Slab",
+      "item.always_skibidi.dead_tools_pickaxe": "DeadTools Pickaxe",
+      "item.always_skibidi.dead_tools_sword": "DeadTools Sword",
+      "item.always_skibidi.dead_tools_axe": "DeadTools Axe",
       "item.always_skibidi.a_gift_from_the_forest": "A Gift From The Forest",
       "block.always_skibidi.dead_stairs": "Dead Stairs",
       "item_group.always_skibidi.always_watching": "Always Watching"
