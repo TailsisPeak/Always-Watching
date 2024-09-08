@@ -1,0 +1,42 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "id": "always_skibidi:rotten_meak_sack"
+    },
+    "title": {
+      "translate": "advancements.we_are_aooking.title"
+    },
+    "description": {
+      "translate": "advancements.we_are_aooking.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "we_are_aooking_0": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "always_skibidi:stalking_forests"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "we_are_aooking_1": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 20
+  }
+}

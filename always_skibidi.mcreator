@@ -628,6 +628,18 @@
           "src/main/resources/data/always_skibidi/recipes/ad_vgooglesrecipe.json"
         ]
       }
+    },
+    {
+      "name": "WeAreAooking",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "we_are_aooking",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/always_skibidi/advancements/we_are_aooking.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -691,7 +703,9 @@
       "block.always_skibidi.dead_fence_gate": "Dead Fence Gate",
       "entity.always_skibidi.test_entity": "Test Entity",
       "item.always_skibidi.dead_tools_shovel": "DeadTools Shovel",
+      "advancements.we_are_aooking.title": "We Are Aooking",
       "block.always_skibidi.dead_slab": "Dead Slab",
+      "advancements.we_are_aooking.descr": "Strange presence",
       "item.always_skibidi.dead_tools_sword": "DeadTools Sword",
       "item.always_skibidi.dead_tools_axe": "DeadTools Axe",
       "item.always_skibidi.ad_vgoogles_helmet": "AD Vgoogles Helmet",
