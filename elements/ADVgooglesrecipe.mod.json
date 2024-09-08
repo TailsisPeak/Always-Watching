@@ -8,41 +8,41 @@
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "craftingBookCategory": "EQUIPMENT",
+    "craftingBookCategory": "BUILDING",
     "recipeShapeless": false,
     "recipeSlots": [
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:DeadPlanks"
-      },
-      {
-        "value": "CUSTOM:DeadPlanks"
+        "value": "CUSTOM:Adavancetech"
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:AGiftFromTheForest"
+        "value": "CUSTOM:Adavancetech"
       },
       {
-        "value": "CUSTOM:DeadPlanks"
+        "value": "Items.IRON_INGOT"
       },
       {
-        "value": "Items.STICK"
+        "value": "CUSTOM:Adavancetech"
       },
       {
         "value": ""
+      },
+      {
+        "value": "CUSTOM:Adavancetech"
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:DeadGreatSword"
+      "value": "CUSTOM:ADVgoogles.helmet"
     },
-    "name": "dead_great_sword_recipe",
+    "name": "ad_vgooglesrecipe",
     "namespace": "mod"
   }
 }

@@ -32,8 +32,8 @@
     "bootsSpecialInformation": {
       "fixedValue": []
     },
-    "helmetModelName": "Default",
-    "helmetModelPart": "Helmet",
+    "helmetModelName": "ModelADVheadgear",
+    "helmetModelPart": "Head",
     "helmetModelTexture": "From armor",
     "bodyModelName": "Default",
     "bodyModelPart": "Body",

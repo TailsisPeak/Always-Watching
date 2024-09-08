@@ -616,6 +616,18 @@
           "src/main/java/net/mcreator/alwaysskibidi/item/ADVgooglesItem.java"
         ]
       }
+    },
+    {
+      "name": "ADVgooglesrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ad_vgooglesrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/always_skibidi/recipes/ad_vgooglesrecipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
