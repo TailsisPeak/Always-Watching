@@ -40,17 +40,10 @@ public class AlwaysSkibidiModTabs {
 			tabData.accept(AlwaysSkibidiModBlocks.DEAD_FENCE_GATE.get().asItem());
 			tabData.accept(AlwaysSkibidiModBlocks.DEAD_PRESSURE_PLATE.get().asItem());
 			tabData.accept(AlwaysSkibidiModBlocks.DEAD_BUTTON.get().asItem());
-		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
-			tabData.accept(AlwaysSkibidiModItems.DEAD_TOOLS_SWORD.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(AlwaysSkibidiModItems.TEST_ENTITY_SPAWN_EGG.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(AlwaysSkibidiModBlocks.DEAD_LEAVES.get().asItem());
-		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
-			tabData.accept(AlwaysSkibidiModItems.DEAD_TOOLS_PICKAXE.get());
-			tabData.accept(AlwaysSkibidiModItems.DEAD_TOOLS_AXE.get());
-			tabData.accept(AlwaysSkibidiModItems.DEAD_TOOLS_SHOVEL.get());
-			tabData.accept(AlwaysSkibidiModItems.DEAD_TOOLS_HOE.get());
 		}
 	}
 }
