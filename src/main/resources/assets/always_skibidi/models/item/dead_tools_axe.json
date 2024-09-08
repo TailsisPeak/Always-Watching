@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "always_skibidi:item/deadtools_axe"
+    "layer0": "always_skibidi:item/goodbrokeaxe"
   }
 }

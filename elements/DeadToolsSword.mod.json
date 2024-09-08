@@ -5,7 +5,7 @@
     "toolType": "Sword",
     "renderType": 0,
     "blockingRenderType": 0,
-    "texture": "deadtools_sword",
+    "texture": "bokesword",
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
     "name": "DeadTools Sword",
