@@ -48,6 +48,7 @@ public class AlwaysSkibidiModTabs {
 			tabData.accept(AlwaysSkibidiModItems.AD_VGOOGLES_HELMET.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(AlwaysSkibidiModItems.TEST_ENTITY_SPAWN_EGG.get());
+			tabData.accept(AlwaysSkibidiModItems.STALKER_SPAWN_EGG.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(AlwaysSkibidiModBlocks.DEAD_LEAVES.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {

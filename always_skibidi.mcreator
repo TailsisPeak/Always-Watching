@@ -640,6 +640,21 @@
           "src/main/resources/data/always_skibidi/advancements/we_are_aooking.json"
         ]
       }
+    },
+    {
+      "name": "Stalker",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stalker",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alwaysskibidi/entity/StalkerEntity.java",
+          "src/main/resources/assets/always_skibidi/models/item/stalker_spawn_egg.json",
+          "src/main/java/net/mcreator/alwaysskibidi/client/renderer/StalkerRenderer.java",
+          "src/main/resources/data/always_skibidi/neoforge/biome_modifier/stalker_biome_modifier.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -706,9 +721,11 @@
       "advancements.we_are_aooking.title": "We Are Looking",
       "block.always_skibidi.dead_slab": "Dead Slab",
       "advancements.we_are_aooking.descr": "Strange presence",
+      "entity.always_skibidi.stalker": "Stalker",
       "item.always_skibidi.dead_tools_sword": "DeadTools Sword",
       "item.always_skibidi.dead_tools_axe": "DeadTools Axe",
       "item.always_skibidi.ad_vgoogles_helmet": "AD Vgoogles Helmet",
+      "item.always_skibidi.stalker_spawn_egg": "Stalker Spawn Egg",
       "item.always_skibidi.dead_great_sword": "Dead Great Sword",
       "item.always_skibidi.adavancetech": "Adavancetech",
       "item_group.always_skibidi.always_watching": "Always Watching"
