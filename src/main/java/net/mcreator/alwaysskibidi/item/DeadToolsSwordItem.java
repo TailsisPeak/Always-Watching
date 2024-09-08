@@ -46,6 +46,6 @@ public class DeadToolsSwordItem extends SwordItem {
 	};
 
 	public DeadToolsSwordItem() {
-		super(TOOL_TIER, new Item.Properties().attributes(SwordItem.createAttributes(TOOL_TIER, 3f, -1f)));
+		super(TOOL_TIER, new Item.Properties().attributes(SwordItem.createAttributes(TOOL_TIER, 3f, -2.4f)));
 	}
 }
