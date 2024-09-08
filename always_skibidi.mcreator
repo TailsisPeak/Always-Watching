@@ -254,12 +254,12 @@
       "registry_name": "dead_pressure_plate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/always_skibidi/models/block/dead_pressure_plate_down.json",
-          "src/main/java/net/mcreator/alwaysskibidi/block/DeadPressurePlateBlock.java",
           "src/main/resources/assets/always_skibidi/models/item/dead_pressure_plate.json",
           "src/main/resources/assets/always_skibidi/blockstates/dead_pressure_plate.json",
+          "src/main/resources/data/always_skibidi/loot_tables/blocks/dead_pressure_plate.json",
           "src/main/resources/assets/always_skibidi/models/block/dead_pressure_plate.json",
-          "src/main/resources/data/always_skibidi/loot_tables/blocks/dead_pressure_plate.json"
+          "src/main/java/net/mcreator/alwaysskibidi/block/DeadPressurePlateBlock.java",
+          "src/main/resources/assets/always_skibidi/models/block/dead_pressure_plate_down.json"
         ]
       }
     },
