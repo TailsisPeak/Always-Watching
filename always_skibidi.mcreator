@@ -667,6 +667,20 @@
           "src/main/resources/data/always_skibidi/loot_tables/chests/advtechspawn.json"
         ]
       }
+    },
+    {
+      "name": "StrangeHut",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strange_hut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/always_skibidi/worldgen/template_pool/strange_hut.json",
+          "src/main/resources/data/always_skibidi/worldgen/structure/strange_hut.json",
+          "src/main/resources/data/always_skibidi/worldgen/structure_set/strange_hut.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
