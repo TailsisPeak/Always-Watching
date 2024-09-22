@@ -655,6 +655,18 @@
           "src/main/resources/data/always_skibidi/neoforge/biome_modifier/stalker_biome_modifier.json"
         ]
       }
+    },
+    {
+      "name": "Advtechspawn",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "advtechspawn",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/always_skibidi/loot_tables/chests/advtechspawn.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
