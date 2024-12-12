@@ -1,8 +1,0 @@
-{
-  "parent": "block/template_fence_gate",
-  "textures": {
-    "particle": "always_skibidi:block/dead_planks",
-    "texture": "always_skibidi:block/dead_planks"
-  },
-  "render_type": "solid"
-}

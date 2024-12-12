@@ -1,8 +1,0 @@
-{
-  "parent": "block/button",
-  "textures": {
-    "particle": "always_skibidi:block/ibutton",
-    "texture": "always_skibidi:block/ibutton"
-  },
-  "render_type": "solid"
-}

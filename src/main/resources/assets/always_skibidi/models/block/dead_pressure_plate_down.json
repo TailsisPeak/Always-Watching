@@ -1,8 +1,0 @@
-{
-  "parent": "block/pressure_plate_down",
-  "textures": {
-    "particle": "always_skibidi:block/ipressureplte",
-    "texture": "always_skibidi:block/ipressureplte"
-  },
-  "render_type": "solid"
-}

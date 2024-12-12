@@ -1,8 +1,0 @@
-{
-  "parent": "block/fence_post",
-  "textures": {
-    "texture": "always_skibidi:block/dead_planks",
-    "particle": "always_skibidi:block/dead_planks"
-  },
-  "render_type": "solid"
-}
